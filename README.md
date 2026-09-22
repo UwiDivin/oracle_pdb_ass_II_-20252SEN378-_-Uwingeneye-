@@ -1,6 +1,12 @@
 # 🗄️ Oracle Database Administration Project
 
-## Student Information
+![Level](https://img.shields.io/badge/Level-University-blue)
+![Course](https://img.shields.io/badge/Course-Database%20Development-orange)
+![Software](https://img.shields.io/badge/Software-Oracle%20Database%2021c-red)
+![Language](https://img.shields.io/badge/Language-SQL%20%7C%20PL%2FSQL-yellow)
+![Status](https://img.shields.io/badge/Status-In%20Progress-green)
+
+## 👨‍🎓 Student Information
 
 **Name:** Uwingeneye Divin
 **Student ID:** 20252SEN378
