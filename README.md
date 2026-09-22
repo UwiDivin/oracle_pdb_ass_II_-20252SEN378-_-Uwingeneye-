@@ -19,10 +19,11 @@ This assignment focuses on Oracle Database administration using **Oracle Databas
 
 The assignment contains four mandatory tasks:
 
-1. Create a New Pluggable Database
+1. Creation of New Pluggable Database
 2. Create and Delete a PDB
 3. Oracle Enterprise Manager (OEM) Setup
-4. Documentation & Reporting
+4. Creation of Tables
+5. Documentation & Reporting
 
 ---
 
@@ -114,6 +115,82 @@ The following screenshots provide evidence of the work completed during the assi
 | **PIC 003** | **Session 3 — Temporary PDB Deletion** | Temporary PDB opened successfully and dropped successfully                                                                                                 |
 | **PIC 004** | **Session 4 — OEM Connection**         | Connection to Oracle Enterprise Manager Express                                                                                                            |
 | **PIC 005** | **Session 5 — OEM Dashboard**          | Oracle Enterprise Manager dashboard showing the Oracle environment and username                                                                            |
+
+ ---
+
+## 🗄️ Database Setup
+
+| Item | Details |
+|---|---|
+| 🗄️ DBMS | Oracle Database 21c |
+| 🔢 Version | 21.3.0.0.0 |
+| 📦 PDB | HR_PDB |
+| 👤 Schema | HR_ADMIN |
+| 💻 Language | SQL / PL/SQL |
+
+---
+
+## 🏗️ Database Structure
+
+The database contains the following tables:
+
+* 🌍 **REGIONS** — Stores geographical regions.
+* 🌎 **COUNTRIES** — Stores countries and their associated regions.
+* 📍 **LOCATIONS** — Stores workplace/location information.
+* 💼 **JOBS** — Stores job titles and salary ranges.
+* 🏢 **DEPARTMENTS** — Stores department information and department managers.
+* 👨‍💼 **EMPLOYEES** — Stores employee personal, job, salary, and department information.
+* 📋 **JOB_HISTORY** — Stores employees' previous job and department information.
+
+---
+
+## 🔗 Relationships
+
+The database uses foreign keys to connect related information.
+
+* 🌍 Regions → Countries
+* 🌎 Countries → Locations
+* 📍 Locations → Departments
+* 💼 Jobs → Employees
+* 🏢 Departments → Employees
+* 👨‍💼 Employees → Managers
+* 📋 Employees → Job History
+
+These relationships help maintain data consistency and represent how an HR system works in a real organization.
+
+---
+
+## 🧠 SQL Concepts Used
+
+* 🔑 Primary Keys
+* 🔗 Foreign Keys
+* 🛡️ Constraints
+* 📊 Data Types
+* ➕ INSERT statements
+* 🔎 SELECT queries
+* 🔄 Table relationships
+* 👥 Employee and manager relationships
+* 🏢 Department management
+* 💼 Job and salary management
+* 📋 Job history management
+
+---
+
+## 📦 What's Included
+
+The SQL file contains:
+
+* 🏗️ Database table creation
+* 🔑 Primary key definitions
+* 🔗 Foreign key relationships
+* 🛡️ Table constraints
+* 🌍 Region and country data
+* 📍 Location data
+* 💼 Job data
+* 🏢 Department data
+* 👨‍💼 Employee data
+* 📋 Job history data
+* 🔎 SQL queries for working with the database
 
 ---
 
